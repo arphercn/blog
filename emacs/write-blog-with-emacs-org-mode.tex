@@ -1,0 +1,92 @@
+% Created 2017-12-11 一 11:06
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{fixltx2e}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{float}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{textcomp}
+\usepackage{marvosym}
+\usepackage{wasysym}
+\usepackage{amssymb}
+\usepackage{hyperref}
+\tolerance=1000
+\author{arpher}
+\date{\today}
+\title{使用emacs org-mode搭建博客}
+\hypersetup{
+  pdfkeywords={},
+  pdfsubject={},
+  pdfcreator={}}
+\begin{document}
+
+\maketitle
+\tableofcontents
+
+
+\section{需求}
+\label{sec-1}
+
+\begin{center}
+\begin{tabular}{lll}
+ & 本地 & 远程\\
+\hline
+写作 & ok & \\
+搜索 & ok & \\
+评论 &  & ok\\
+\end{tabular}
+\end{center}
+
+
+写作方便 \\
+  易搜索 \\
+  能显示图片，代码高亮 \\
+博客 \\
+  页面美观 \\
+  评论功能 \\
+\section{优点}
+\label{sec-2}
+本地写作，搜索，管理方便 \\
+线上方便查看，实现评论功能 \\
+静态博客文档，后期容易维护 \\
+
+emacs org-mode的优点，显示图片，代码高亮 \\
+\section{博客功能测试}
+\label{sec-3}
+代码高亮 \\
+\begin{verbatim}
+var app4 = new Vue({
+  el: '#app-4',
+  data: {
+	todos: [
+	  { text: '学习 JavaScript' },
+	  { text: '学习 Vue' },
+	  { text: '整个牛项目' }
+	]
+  }
+})
+\end{verbatim}
+引用代码文件 \url{demo.php} \\
+
+
+\begin{figure}[htb]
+\centering
+\includegraphics[width=.9\linewidth]{bbbb.jpg}
+\caption{\label{fig:SED-HR4049}This is the caption for the next figure link (or table)}
+\end{figure} \\
+
+在 org-mode 中，提供了一個 org-toggle-inline-images (C-c C-x C-v)的命令 \\
+
+
+112233445566778899001122334455 \\
+
+\section{参考}
+\label{sec-4}
+\href{https://dirtysalt.github.io/html/blogs/use-emacs-org-mode-to-build-site.html}{用Emacs Org-Mode来建站} 大神的博客 \\
+\href{http://forrestchang.com/14824097554043.html}{使用Emacs Org-mode + GitHub Pages 来写博客} \\
+\end{document}
