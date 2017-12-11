@@ -35,13 +35,15 @@ var app4 = new Vue({
   }
 })
 #+END_SRC
-引用代码文件 [[file:demo.php]]
+引用代码文件[[./demo.php]]
+
+引用代码文件夹 [[./factory]]
 
 
  #+CAPTION: This is the caption for the next figure link (or table)
- #+LABEL: fig:SED-HR4049
+ #+LABEL: BBBB
  #+ATTR_HTML: :width 300
-[[file:bbbb.jpg]]
+[[./bbbb.jpg]]
 
 在 org-mode 中，提供了一個 org-toggle-inline-images (C-c C-x C-v)的命令
 

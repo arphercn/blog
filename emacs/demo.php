@@ -30,6 +30,6 @@ class PurchasePodcast implements SelfHandling{
      */
     public function handle()
     {
-        //
+        //    
     }
 }
