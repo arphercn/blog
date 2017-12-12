@@ -6,7 +6,7 @@ cd ~/blog/
 git pull origin master
 
 git add .
-git commit -m '...'
+git commit -a -m '...'
 git push origin master
 
 
