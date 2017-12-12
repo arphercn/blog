@@ -1,6 +1,7 @@
 #+TITLE: 使用emacs org-mode搭建博客
+#+DATE: <2017-12-12 二>
 
-** 需求
+* 需求
 
 |      | 本地 | 远程 |
 |------+------+------|
@@ -8,6 +9,8 @@
 | 搜索 | ok   |      |
 | 评论 |      | ok   |
 		
+11223344556677889900112233445566778899112233445566778899001122334455
+1122334455667788991122334455667788
 
 写作方便[fn:1]
   易搜索
@@ -15,13 +18,13 @@
 博客
   页面美观
   评论功能
-** 优点
+* 优点
 本地写作，搜索，管理方便
 线上方便查看，实现评论功能
 静态博客文档，后期容易维护
 
 emacs org-mode的优点，显示图片，代码高亮
-** 博客功能测试
+* 博客功能测试
 代码高亮
 #+BEGIN_SRC js
 var app4 = new Vue({
@@ -36,19 +39,20 @@ var app4 = new Vue({
 })
 #+END_SRC
 引用代码文件[[./demo.php]]
+引用代码文件 file:demo.php
 
-引用代码文件夹 [[./factory]]
-
+引用代码文件夹 file:factory
+  
 
  #+CAPTION: This is the caption for the next figure link (or table)
  #+LABEL: BBBB
  #+ATTR_HTML: :width 300
-[[./bbbb.jpg]]
+file:bbbb.jpg
 
 在 org-mode 中，提供了一個 org-toggle-inline-images (C-c C-x C-v)的命令
 
 
-1122334455667788990011223344556677
+
 
     
 [fn:1]大神的博客 [[https://dirtysalt.github.io/html/blogs/use-emacs-org-mode-to-build-site.html][用Emacs Org-Mode来建站]] 

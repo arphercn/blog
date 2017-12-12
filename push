@@ -1,0 +1,10 @@
+#!/bin/bash
+
+git pull origin master
+
+git add .
+git commit -a -m '...'
+git push origin master
+
+
+/home/arpher/Documents/blog/src/scripts/push
