@@ -7,4 +7,5 @@ git commit -a -m '...'
 git push origin master
 
 
-/home/arpher/Documents/blog/src/scripts/push
+cd ./Documents/blog/src/scripts/
+./push

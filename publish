@@ -5,4 +5,4 @@
 
 emacs --batch --script ./src/scripts/publish.el
 
-/home/arpher/Documents/blog/src/scripts/replace
+./Documents/blog/src/scripts/replace
