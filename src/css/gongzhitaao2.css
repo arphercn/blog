@@ -15,7 +15,7 @@ body {
 	background-color: #eee;
 }
 
-@media (min-width:769px) {
+@media (min-width:1077px) {
 	body {
 		width: 67%
 	}
