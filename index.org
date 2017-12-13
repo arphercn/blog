@@ -3,6 +3,7 @@
    + emacs
      + org-mode
        + [[file:emacs/org-mode/write-blog-with-emacs-org-mode2.org][2017-12-12 使用emacs org-mode搭建博客2]]
+     + [[file:emacs/org-card.org][2017-12-13 Org-Mode Reference Card]]
+     + [[file:emacs/test-css-in-blog.org][2017-12-13 调试css]]
      + [[file:emacs/emacs-org-mode-grammar.org][2017-12-12 org-mode 常用语法]]
-     + [[file:emacs/org-card.org][2017-12-12 Org-Mode Reference Card]]
      + [[file:emacs/write-blog-with-emacs-org-mode.org][2017-12-12 使用emacs org-mode搭建博客]]

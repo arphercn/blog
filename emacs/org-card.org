@@ -227,21 +227,21 @@ elsewhere.
 
 * TODO Items and Checkboxes
 
-| Key              | Function                                      |
-|------------------+-----------------------------------------------|
-| =C-c C-t=        | rotate the state of the current item          |
-| =S-LEFT/RIGHT=   | select next/previous state                    |
-| =C-S-LEFT/RIGHT= | select next/previous set                      |
-| =C-c C-x o=      | toggle ORDERED property                       |
-| =C-c C-v=        | view TODO items in a sparse tree              |
-| =C-3 C-c C-v=    | view 3rd TODO keyword's sparse tree           |
-| =C-c , [ABC]=    | set the priority of the current item          |
-| =C-c , SPC=      | remove priority cookie from current item      |
-| =S-UP/DOWN=      | raise/lower priority of current item          |
-| =M-S-RET=        | insert new checkbox item in plain list        |
-| =C-c C-x C-b=    | toggle checkbox(es) in region/entry/at point  |
-| =C-c C-c=        | toggle checkbox at point                      |
-| =C-c #=          | update checkbox statistics (C-u : whole file) |
+| Key              | Function                                      |              |
+|------------------+-----------------------------------------------+--------------|
+| =C-c C-t=        | rotate the state of the current item          |              |
+| =S-LEFT/RIGHT=   | select next/previous state                    | 调整项目状态   |
+| =C-S-LEFT/RIGHT= | select next/previous set                      |              |
+| =C-c C-x o=      | toggle ORDERED property                       |              |
+| =C-c C-v=        | view TODO items in a sparse tree              |              |
+| =C-3 C-c C-v=    | view 3rd TODO keyword's sparse tree           |              |
+| =C-c , [ABC]=    | set the priority of the current item          |              |
+| =C-c , SPC=      | remove priority cookie from current item      |              |
+| =S-UP/DOWN=      | raise/lower priority of current item          |              |
+| =M-S-RET=        | insert new checkbox item in plain list        |              |
+| =C-c C-x C-b=    | toggle checkbox(es) in region/entry/at point  |              |
+| =C-c C-c=        | toggle checkbox at point                      |              |
+| =C-c #=          | update checkbox statistics (C-u : whole file) |              |
 
 * Tags
 
