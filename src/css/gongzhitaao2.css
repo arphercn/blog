@@ -31,8 +31,12 @@ body {
 }
 
 h1 {
-	font-size: 1.5em;
+	font-size: 1.4em;
 	margin: .67em 0;
+}
+
+h2 {
+	font-size: 1.1em
 }
 
 h2,h3,h4,h5,h6 {
@@ -43,11 +47,6 @@ h2,h3,h4,h5,h6 {
     -webkit-margin-after: .3em;
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
-    font-size: 1.2em;
-}
-
-h4,h5,h6 {
-	font-size: 1.1em
 }
 
 p {
