@@ -39,6 +39,10 @@ h2 {
 	font-size: 1.1em
 }
 
+h3,h4,h5,h6 {
+	font-size: 1em
+}
+
 h2,h3,h4,h5,h6 {
 	/*color: #a5573e;*/
 	line-height: 1.2em;
