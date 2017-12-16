@@ -1,7 +1,5 @@
 #!/bin/bash
 
 
-
-
 emacs --batch --script ./src/scripts/publish.el
 
