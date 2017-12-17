@@ -8,7 +8,7 @@ import re
 site_base = 'https://arphercn.github.io/'
 site_code = 'https://github.com/arphercn/blog/blob/master/'
 root_org  = '/blog/'
-root_html = '/home/arpher/Documents/blog/'
+root_html = '/var/www/html/blog/'
 
 # format href="./bbbb"
 # pat_link  = re.compile(r'href="\./([\w\.-]+)"')
