@@ -1,9 +1,0 @@
-#!/bin/bash
-
-
-cd ~/Documents/blog/
-# git pull origin master
-
-git add .
-git commit -m '...'
-git push origin master

@@ -2,12 +2,6 @@
 
 ~/blog/src/scripts/replace
 
-cd ~/Documents/blog/
-# git pull origin master
-git add .
-git commit -m '...'
-git push origin master
-
 
 cd ~/blog/
 # git pull origin master
@@ -15,5 +9,9 @@ git add .
 git commit -m '...'
 git push origin master
 
-
+cd /var/www/blog/
+# git pull origin master
+git add .
+git commit -m '...'
+git push origin master
 
