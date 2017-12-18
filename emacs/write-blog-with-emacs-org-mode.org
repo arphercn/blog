@@ -3,71 +3,9 @@
 #+DATE: <2017-12-12 二>
 #+LATEX_HEADER: \usepackage{xeCJK}
 #+LATEX_HEADER: \setCJKmainfont{微软雅黑}
-* 需求
 
-  |      | 本地 | 远程 |
-  |------+------+------|
-  | 写作 | ok   |      |
-  | 搜索 | ok   |      |
-  | 评论 |      | ok   |
+* 特点
+本地编辑管理方便，能使用org-mode的方便特性。
+代码高亮
+链接到文件，易管理
 
-  当代人过分依赖视觉，近乎于迷信。“眼见为实”，听起来理所当然，但也成了一个陷阱。出于惯性，人们将新的视觉信息自动纳入原有的观念框架，捍卫“明摆着”的证据，却“对不合口味的证据视而不见”。当你说 I See，也许既没有“看见”，也没有“明白”。
-		
-  112233 445566778899 00112233445 566778899112 233445566778899 001122334455112 23344556677 88991122334455 66778899 11223344
-  22 33 44 55 66 77 88 99 11 22 33 44 55 66 77
-  写作方便[fn:1]
-	易搜索
-	能显示图片，代码高亮
-  博客
-	页面美观
-	评论功能
-* 优点
-  本地写作，搜索，管理方便
-  线上方便查看，实现评论功能
-  静态博客文档，后期容易维护
-
-  emacs org-mode的优点，显示图片，代码高亮
-* 博客功能测试
-** 代码高亮
-
-#+BEGIN_SRC js
-  var app4 = new Vue({
-	el: '#app-4',
-	data: {
-      todos: [
-		{ text: '学习 JavaScript' },
-		{ text: '学习 Vue' },
-		{ text: '整个牛项目' }
-      ]
-	}
-  })
-#+END_SRC
-
-** TODO 引用代码文件
-  引用代码文件 file:demo.php
-  引用代码文件夹 file:factory
-  
-#+CAPTION: This is the caption for the next figure link (or table)
-#+LABEL: BBBB
-#+ATTR_HTML: :width 300
-[[file:bbbb.jpg]]
-
-#+CAPTION: This is the caption for the next figure link (or table)
-#+LABEL: BBBB
-#+ATTR_HTML: :width 300
-[[file:cccc.jpg]]
-
-在 org-mode 中，提供了一個 org-toggle-inline-images (C-c C-x C-v)的命令,可以快速显示图片
-    
-[fn:1]大神的博客 [[https://dirtysalt.github.io/html/blogs/use-emacs-org-mode-to-build-site.html][用Emacs Org-Mode来建站]] 
-[[http://forrestchang.com/14824097554043.html][使用Emacs Org-mode + GitHub Pages 来写博客]]
-** DONE 让博客适配手机端
-  - 设置emacs定制导出html格式
-	- [ ] 修改myinit.el设置html通过
-	- [X] 模板muse插件实现导出html
-  - 直接通过现有PC端css修改
-	- 配置通过chrome浏览器实时修改css功能
-	- 梳理博客PC端css
-	- 编写手机端css
-	  - 配置手机端可以实时查看
-	  - 按每次写的博客内容调整手机端css 
