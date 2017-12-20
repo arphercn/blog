@@ -1,4 +1,4 @@
 #+TITLE: 博客首页
 
    + emacs
-     + [[file:emacs/write-blog-with-emacs-org-mode.org][2017-12-12 使用emacs org-mode搭建博客]]
+     + [[file:emacs/write-blog-with-emacs-org-mode.org][2017-12-12 电影《芳华》与原著小说有哪些不同]]

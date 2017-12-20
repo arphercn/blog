@@ -1,11 +1,10 @@
-#+TITLE: 使用emacs org-mode搭建博客
+#+TITLE: 电影《芳华》与原著小说有哪些不同
 #+KEYWORDS: emacs org-mode blog
 #+DATE: <2017-12-12 二>
 #+LATEX_HEADER: \usepackage{xeCJK}
 #+LATEX_HEADER: \setCJKmainfont{微软雅黑}
 
+
 * 特点
-本地编辑管理方便，能使用org-mode的方便特性。
-代码高亮
-链接到文件，易管理
+话题是豆友们针对具体的主题展开讨论的沙龙。你可以在此发现豆友的精彩言论，也可以写日记、发广播来分享你的观点和故事。为了高效地呈现最佳内容，我们欢迎你为高质量的内容点赞（喜欢），并反馈低质量及低相关性内容，这将优化内容列表的排序
 
